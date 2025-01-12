@@ -7,11 +7,15 @@
         lastName: string;
         age: number;
         company: "CSS Company"  //literal type
+        readonly title: string
     } = {
         firstName: "Shovan",
         // middleName: "Hriday",
         lastName: "Saha",
         age: 24,
-        company: "CSS Company"
+        company: "CSS Company",
+        title: "Dev"
     }
+
+    // user.title = "Coder"
 }
