@@ -11,7 +11,7 @@
         contactNo: "123456"
     }
 
-    const {contactNo:phoneNo ,name:{firstName} } = user;
+    const {contactNo:phoneNo ,name:{firstName} } = user;  //name alias
     console.log(phoneNo);
 
 
