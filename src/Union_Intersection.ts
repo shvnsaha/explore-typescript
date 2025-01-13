@@ -3,7 +3,7 @@
     type TFrontEndDev = 'GoodDev' | 'BadDev';
     type TFullStack = 'Developer' | TFrontEndDev;
     type TDeveloper = TFrontEndDev | TFullStack;
-    const newDeveloper:Developer = 'Developer';
+    const newDeveloper:TDeveloper = 'Developer';
 
     type User = {
         name: string;
